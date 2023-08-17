@@ -269,6 +269,24 @@ img {
   text-align: center;
 }
 
+.team-social-icon {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+  fill: var(--light-cloud);
+}
+
+.team-icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-brand-iris);
+}
+
 /* портфоліо */
 
 .card-portfolio {
