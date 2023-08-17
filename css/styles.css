@@ -140,8 +140,9 @@ img {
 .hero {
   background-color: var(--dark-navy-blue);
   background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7), 
-    rgba(46, 47, 66, 0.7)),
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url('../images/people-office.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,6 +222,18 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-slate);
   width: 264px;
+}
+
+.background-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--subtle-text-light-slate);
+  background: var(--light-cloud);
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
 }
 
 /* секція 3 */
