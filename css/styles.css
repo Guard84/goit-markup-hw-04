@@ -153,6 +153,7 @@ img {
 
 .hero-title {
   color: var(--white-background);
+  text-align: center;
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
