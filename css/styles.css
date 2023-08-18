@@ -148,6 +148,7 @@ img {
   background-size: cover;
   background-position: center;
   padding: 188px 0;
+  max-width: 100%;
 }
 
 .hero-title {
@@ -166,16 +167,16 @@ img {
   display: block;
   background-color: var(--primary-brand-iris);
   color: var(--white-background);
+  min-width: 169px;
+  height: 56px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  padding: 16px 32px;
   border-radius: 4px;
-  min-width: 169px;
-  height: 56px;
   border: none;
   margin: auto;
+  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -274,7 +275,6 @@ img {
   gap: 24px;
   justify-content: center;
   margin-top: 8px;
-  fill: var(--light-cloud);
 }
 
 .team-icon-item {
@@ -285,6 +285,7 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: var(--primary-brand-iris);
+  fill: var(--light-cloud);
 }
 
 /* портфоліо */
@@ -351,4 +352,34 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 120px;
+}
+
+.social-footer {
+  color: var(--white-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.social-icon-footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon-footer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-brand-iris);
+  fill: var(--light-cloud);
 }
