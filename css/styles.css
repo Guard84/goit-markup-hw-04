@@ -131,11 +131,12 @@ img {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: "";
+  content: '';
   width: 48px;
   height: 4px;
   border-radius: 2px;
   background-color: var(--pressed-state-ocean);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-link:hover,
@@ -151,6 +152,7 @@ img {
   color: var(--text-slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover,
@@ -200,6 +202,7 @@ img {
   border: none;
   margin: auto;
   padding: 16px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -269,6 +272,9 @@ img {
 .list-team {
   background-color: var(--white-background);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-info {
@@ -309,6 +315,12 @@ img {
   border-radius: 50%;
   background-color: var(--primary-brand-iris);
   fill: var(--light-cloud);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-icon-item:hover,
+.team-icon-item:focus {
+  background-color: var(--pressed-state-ocean);
 }
 
 /* портфоліо */
@@ -405,4 +417,10 @@ img {
   border-radius: 50%;
   background-color: var(--primary-brand-iris);
   fill: var(--light-cloud);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon-footer-item:hover,
+.social-icon-footer-item:focus {
+  background-color: var(--sucess-green);
 }
