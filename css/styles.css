@@ -116,6 +116,28 @@ img {
   display: block;
 }
 
+.page-link-active {
+  position: relative;
+  color: var(--pressed-state-ocean);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  padding: 24px 0;
+  display: block;
+}
+
+.page-link-active::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  content: "";
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--pressed-state-ocean);
+}
+
 .page-link:hover,
 .page-link:focus {
   color: var(--pressed-state-ocean);
@@ -148,7 +170,7 @@ img {
   background-size: cover;
   background-position: center;
   padding: 188px 0;
-  max-width: 100%;
+  max-width: 1440px;
 }
 
 .hero-title {
